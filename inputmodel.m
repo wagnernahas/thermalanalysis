@@ -18,7 +18,7 @@ model(1).intrusive = false;
 model(1).alphatemperature = 10e-3;
 model(1).td1temperature = 350;
 model(1).td2temperature = 650;
-model(1).latentHeatDehidadration = 350; 
+model(1).latentHeatDehidadration = 0; 
 
 %Layer 2
 model(2).name = 'DIABASIO';
@@ -42,7 +42,7 @@ model(2).tempsolidus = 900;
 model(2).alphatemperature = 1E-4;
 model(2).td1temperature = 350;
 model(2).td2temperature = 650;
-model(2).latentHeatDehidadration = 350; 
+model(2).latentHeatDehidadration = 0; 
 
 %Layer 3
 model(3).name = 'CARBONATO';
@@ -62,7 +62,7 @@ model(3).intrusive = false;
 model(3).alphatemperature = 5E-4;
 model(3).td1temperature = 350;
 model(3).td2temperature = 650;
-model(3).latentHeatDehidadration = 350; 
+model(3).latentHeatDehidadration = 0; 
 
 %Camada 4
 model(4).name = 'CARBONATO';
@@ -82,7 +82,7 @@ model(4).intrusive = false;
 model(4).alphatemperature = 5E-4;
 model(4).td1temperature = 350;
 model(4).td2temperature = 650;
-model(4).latentHeatDehidadration = 350; 
+model(4).latentHeatDehidadration = 0; 
 
 %Layer 5
 model(5).name = 'CRB';
@@ -102,7 +102,7 @@ model(5).intrusive = false;
 model(5).alphatemperature = 5E-4;
 model(5).td1temperature = 350;
 model(5).td2temperature = 650;
-model(5).latentHeatDehidadration = 350; 
+model(5).latentHeatDehidadration = 0; 
 
 %Layer 6
 model(6).name = 'FOLHELHO';
@@ -126,7 +126,7 @@ model(6).tempsolidus = 900;
 model(6).alphatemperature = 2.52E-4;
 model(6).td1temperature = 350;
 model(6).td2temperature = 650;
-model(6).latentHeatDehidadration = 350; 
+model(6).latentHeatDehidadration = 0; 
 
 %Layer 7
 model(7).name = 'ARENITO';
@@ -146,6 +146,6 @@ model(7).intrusive = false;
 model(7).alphatemperature = 3E-3;
 model(7).td1temperature = 350;
 model(7).td2temperature = 650;
-model(7).latentHeatDehidadration = 350;
+model(7).latentHeatDehidadration = 0;
 
 end
